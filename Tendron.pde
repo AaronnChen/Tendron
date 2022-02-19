@@ -2,7 +2,7 @@ int i = 50;
 int numRecursions = 3;
 public void setup()
 {
-  size(800, 800);  
+  size(600, 600);  
   background(255);
   noLoop();
 }
@@ -10,11 +10,11 @@ public void setup()
 public void draw()
 {
   background(30, 25, 25);
-  fill(255);
-  textSize(100);
-  text("recursions: " + numRecursions, 90, 100);
   Cluster c = new Cluster(i, mouseX, mouseY); 
   c.show();
+  fill(255);
+  textSize(50);
+  text("recursions: " + numRecursions, 140, 70);
 }
 public void mousePressed()
 {
