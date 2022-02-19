@@ -22,7 +22,6 @@ public void mousePressed()
 }
 public void keyPressed()
 {
-  text("dsjf", 200, 200);
   if(keyPressed == true && (keyCode == 'a' || keyCode == 'A') && i <= 200) {
     i *= 4;
     numRecursions++;
