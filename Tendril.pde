@@ -26,7 +26,6 @@ class Tendril
     for(int i = 0; i < myNumSegments; i++) {
       myAngle += Math.random() * 0.4 - 0.2;
       int endX = (int)(startX + Math.cos(myAngle) * SEG_LENGTH);
-      System.out.println(endX);
       int endY = (int)(startY + Math.sin(myAngle) * SEG_LENGTH);
       line(startX, startY, endX, endY);
       startX = endX;
